@@ -1,4 +1,4 @@
-﻿Log file open, 04/11/20 13:27:05
+﻿Log file open, 04/11/20 14:23:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: JamCraft5
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.181833
+LogStats: Stats thread started at 0.107158
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,423 +157,1163 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
-[2020.04.11-18.27.05:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.04.11-18.27.05:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
-[2020.04.11-18.27.05:924][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
-[2020.04.11-18.27.05:927][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.11-18.27.05:927][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.11-18.27.05:928][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.11-18.27.05:928][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.11-18.27.05:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.11-18.27.05:932][  0]LogHAL: Display: Platform has ~ 16 GB [17130553344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.11-18.27.05:932][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.11-18.27.05:932][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.11-18.27.05:932][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.11-18.27.05:933][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.04.11-18.27.05:933][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.04.11-18.27.05:934][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.04.11-18.27.05:934][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
-[2020.04.11-18.27.05:934][  0]LogInit: Computer: GARETHDESKTOP
-[2020.04.11-18.27.05:934][  0]LogInit: User: garet
-[2020.04.11-18.27.05:934][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.04.11-18.27.05:934][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.11-18.27.05:934][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.04.11-18.27.05:934][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.11-18.27.05:934][  0]LogMemory: Process Physical Memory: 100.24 MB used, 100.24 MB peak
-[2020.04.11-18.27.05:934][  0]LogMemory: Process Virtual Memory: 87.82 MB used, 87.82 MB peak
-[2020.04.11-18.27.05:934][  0]LogMemory: Physical Memory: 6724.79 MB used,  9612.18 MB free, 16336.97 MB total
-[2020.04.11-18.27.05:934][  0]LogMemory: Virtual Memory: 4643.61 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2020.04.11-18.27.05:936][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.04.11-18.27.05:963][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2020.04.11-18.27.05:963][  0]LogInit: Overriding language with editor culture configuration option ().
-[2020.04.11-18.27.05:963][  0]LogInit: Using OS detected language (en-US).
-[2020.04.11-18.27.05:964][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.04.11-18.27.06:252][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.11-18.27.06:298][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.11-18.27.06:298][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.11-18.27.06:555][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.11-18.27.06:555][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.11-18.27.06:631][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2020.04.11-18.27.06:631][  0]LogD3D11RHI:       4043/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.04.11-18.27.06:635][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.11-18.27.06:636][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.11-18.27.06:636][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.11-18.27.06:644][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.11-18.27.06:645][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2020.04.11-18.27.06:645][  0]LogWindows: EnumDisplayDevices:
-[2020.04.11-18.27.06:645][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2020.04.11-18.27.06:646][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.04.11-18.27.06:646][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.04.11-18.27.06:646][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.04.11-18.27.06:646][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.04.11-18.27.06:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2020.04.11-18.27.06:646][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.04.11-18.27.06:646][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.04.11-18.27.06:646][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2020.04.11-18.27.06:694][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.11-18.27.06:716][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.04.11-18.27.07:458][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.04.11-18.27.07:468][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.04.11-18.27.07:478][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.04.11-18.27.07:488][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.04.11-18.27.07:499][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.04.11-18.27.07:509][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.04.11-18.27.07:520][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.04.11-18.27.07:530][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.04.11-18.27.07:535][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.04.11-18.27.07:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.04.11-18.27.07:579][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.04.11-18.27.07:600][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.04.11-18.27.07:600][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.04.11-18.27.07:616][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.04.11-18.27.07:616][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.04.11-18.27.07:626][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.04.11-18.27.07:633][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.04.11-18.27.07:642][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.04.11-18.27.07:652][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.04.11-18.27.07:684][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.04.11-18.27.07:684][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.04.11-18.27.07:684][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.11-18.27.07:693][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.04.11-18.27.07:747][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Intermediate/Shaders/WorkingDirectory/3376/).
-[2020.04.11-18.27.07:747][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/garet/AppData/Local/Temp/UnrealShaderWorkingDir/AAE8420F48BF569D1B1E528C9C036500/'.
-[2020.04.11-18.27.07:750][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.11-18.27.07:750][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.11-18.27.07:751][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.11-18.27.08:659][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.11-18.27.08:750][  0]LogDerivedDataCache: Loaded boot cache 0.09s 73MB C:/Users/garet/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.04.11-18.27.08:750][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/garet/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.04.11-18.27.08:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.11-18.27.08:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.11-18.27.08:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.11-18.27.08:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.11-18.27.08:765][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.11-18.27.08:765][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.11-18.27.08:765][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.04.11-18.27.08:767][  0]LogDerivedDataCache: Using Local data cache path C:/Users/garet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.11-18.27.08:767][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.11-18.27.08:767][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.11-18.27.08:794][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.11-18.27.08:796][  0]LogSlate: Using FreeType 2.6.0
-[2020.04.11-18.27.08:797][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.11-18.27.08:883][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
-[2020.04.11-18.27.09:254][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.11-18.27.09:430][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.11-18.27.09:430][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.04.11-18.27.09:430][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.11-18.27.09:430][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.04.11-18.27.09:430][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.04.11-18.27.09:444][  0]LogNetVersion: JamCraft5 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4196748465)
-[2020.04.11-18.27.10:020][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.071158 seconds
-[2020.04.11-18.27.10:028][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.04.11-18.27.10:028][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.04.11-18.27.10:028][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.11-18.27.11:239][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.11-18.27.11:244][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.11-18.27.11:312][  0]SourceControl: Source control is disabled
-[2020.04.11-18.27.11:312][  0]SourceControl: Source control is disabled
-[2020.04.11-18.27.11:314][  0]SourceControl: Source control is disabled
-[2020.04.11-18.27.11:316][  0]SourceControl: Source control is disabled
-[2020.04.11-18.27.11:443][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.11-18.27.11:944][  0]LogOcInput: OculusInput pre-init called
-[2020.04.11-18.27.11:951][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.04.11-18.27.11:952][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.04.11-18.27.12:039][  0]LogEngine: Initializing Engine...
-[2020.04.11-18.27.12:040][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.11-18.27.12:041][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.04.11-18.27.12:363][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.11-18.27.12:378][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.11-18.27.12:455][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.04.11-18.27.12:657][  0]LogInit: FAudioDevice initialized.
-[2020.04.11-18.27.12:657][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.11-18.27.12:825][  0]LogDerivedDataCache: Saved boot cache 0.17s 73MB C:/Users/garet/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.04.11-18.27.12:832][  0]LogInit: Texture streaming: Enabled
-[2020.04.11-18.27.12:852][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.11-18.27.12:942][  0]LogInit: Transaction tracking system initialized
-[2020.04.11-18.27.12:971][  0]BlueprintLog: New page: Editor Load
-[2020.04.11-18.27.13:051][  0]LocalizationService: Localization service is disabled
-[2020.04.11-18.27.13:336][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/' took 0.01s
-[2020.04.11-18.27.13:336][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.11-18.27.13:336][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.11-18.27.13:541][  0]SourceControl: Source control is disabled
-[2020.04.11-18.27.13:541][  0]Cmd: MAP LOAD FILE="../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.11-18.27.13:542][  0]LightingResults: New page: Lighting Build
-[2020.04.11-18.27.13:544][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.04.11-18.27.13:544][  0]MapCheck: New page: Map Check
-[2020.04.11-18.27.13:545][  0]LightingResults: New page: Lighting Build
-[2020.04.11-18.27.13:574][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
-[2020.04.11-18.27.13:792][  0]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] Entry node  Upper Body  is not connected to state
-[2020.04.11-18.27.13:792][  0]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] There was no entry state connection in  Upper Body
-[2020.04.11-18.27.15:380][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.11-18.27.15:518][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.11-18.27.15:550][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
-[2020.04.11-18.27.15:550][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.11-18.27.15:551][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.152ms to complete.
-[2020.04.11-18.27.15:551][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.010
-[2020.04.11-18.27.16:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.11-18.27.16:089][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.11-18.27.16:098][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.11-18.27.16:109][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.11-18.27.16:134][  0]LogCollectionManager: Loaded 0 collections in 0.001290 seconds
-[2020.04.11-18.27.16:220][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Collections/' took 0.00s
-[2020.04.11-18.27.16:220][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/Developers/garet/Collections/' took 0.00s
-[2020.04.11-18.27.16:220][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/Collections/' took 0.00s
-[2020.04.11-18.27.16:220][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2020.04.11-18.27.16:230][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2863 classes and 680 folders.
-[2020.04.11-18.27.16:273][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.11-18.27.17:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.04.11-18.27.17:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2020.04.11-18.27.18:230][  0]LogSlate: Took 0.000941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.11-18.27.18:233][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.11-18.27.18:325][  0]LogSlate: Took 0.021891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.11-18.27.18:724][  0]LogRenderer: Reallocating scene render targets to support 1204x580 Format 10 NumSamples 1 (Frame:1).
-[2020.04.11-18.27.19:372][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.11-18.27.19:372][  0]LogLoad: (Engine Initialization) Total time: 15.46 seconds
-[2020.04.11-18.27.19:372][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.11-18.27.19:414][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.11-18.27.27:451][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.04.11-18.27.27:492][208]LogSlate: Took 0.036796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.04.11-18.27.36:447][519]LogSlate: Took 0.029832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.11-18.27.41:203][522]LogSlate: Took 0.000444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.11-18.27.41:671][527]LogAssetRegistry: Asset discovery search completed in 32.7877 seconds
-[2020.04.11-18.27.41:677][527]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2020.04.11-18.27.41:677][527]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
-[2020.04.11-18.31.21:633][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.04.11-18.31.21:707][379]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.11-18.31.21:770][379]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.11-18.31.21:785][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.11-18.31.21:861][379]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 11, 2020, 8:31:21 AM)
-[2020.04.11-18.31.21:889][379]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.04.11-18.31.21:898][379]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.04.11-18.31.21:960][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062619s)
-[2020.04.11-18.31.21:971][379]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.11-18.31.21:982][379]LogPlayLevel: PIE: World Init took: (0.021485s)
-[2020.04.11-18.31.21:982][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.084620s)
-[2020.04.11-18.31.22:009][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2020.04.11-18.31.22:299][379]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.04.11-18.31.22:351][379]LogInit: FAudioDevice initialized.
-[2020.04.11-18.31.22:983][379]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2020.04.11-18.31.23:355][379]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.11-13.31.23
-[2020.04.11-18.31.23:734][379]LogWorld: Bringing up level for play took: 0.411348
-[2020.04.11-18.31.23:764][379]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2020.04.11-18.31.24:594][379]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2020.04.11-18.31.24:780][379]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.674
-[2020.04.11-18.31.24:780][379]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.11-18.31.27:314][507]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 0
-[2020.04.11-18.31.34:054][957]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096834 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
-[2020.04.11-18.31.34:580][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.11-18.31.34:644][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.11-18.31.34:645][998]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.04.11-18.31.34:646][998]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.04.11-18.31.34:876][998]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.11-18.31.34:876][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.11-18.31.34:934][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.11-18.31.34:950][998]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
-[2020.04.11-18.31.34:972][999]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2020.04.11-18.31.39:108][321]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
+[2020.04.11-19.23.43:672][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.11-19.23.43:672][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.11-19.23.43:673][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.11-19.23.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
+[2020.04.11-19.23.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
+[2020.04.11-19.23.43:677][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:677][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.11-19.23.43:678][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.11-19.23.43:679][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:680][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.11-19.23.43:681][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:681][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.11-19.23.43:681][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.11-19.23.43:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.11-19.23.43:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.11-19.23.43:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.11-19.23.43:681][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.11-19.23.43:682][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.11-19.23.43:683][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.11-19.23.43:684][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.11-19.23.43:685][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.11-19.23.43:685][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.11-19.23.43:685][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.11-19.23.43:685][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.11-19.23.43:685][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:685][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.11-19.23.43:685][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.11-19.23.43:685][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.11-19.23.43:685][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.11-19.23.43:689][  0]LogHAL: Display: Platform has ~ 16 GB [17130553344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.11-19.23.43:689][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.11-19.23.43:691][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:691][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.11-19.23.43:691][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.11-19.23.43:692][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.11-19.23.43:693][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.11-19.23.43:693][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.11-19.23.43:693][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.11-19.23.43:693][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.11-19.23.43:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.11-19.23.43:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.11-19.23.43:694][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.11-19.23.43:695][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.11-19.23.43:696][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.11-19.23.43:696][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.11-19.23.43:696][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.11-19.23.43:696][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.11-19.23.43:696][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.11-19.23.43:696][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:697][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.11-19.23.43:697][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.11-19.23.43:697][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.11-19.23.43:697][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.11-19.23.43:697][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.11-19.23.43:697][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.11-19.23.43:698][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.11-19.23.43:699][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.11-19.23.43:699][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.11-19.23.43:699][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Config/Windows/Engine.ini]
+[2020.04.11-19.23.43:699][  0]LogInit: Computer: GARETHDESKTOP
+[2020.04.11-19.23.43:699][  0]LogInit: User: garet
+[2020.04.11-19.23.43:699][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.11-19.23.43:699][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.11-19.23.43:700][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.04.11-19.23.43:700][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.11-19.23.43:700][  0]LogMemory: Process Physical Memory: 100.83 MB used, 100.84 MB peak
+[2020.04.11-19.23.43:700][  0]LogMemory: Process Virtual Memory: 99.96 MB used, 99.96 MB peak
+[2020.04.11-19.23.43:700][  0]LogMemory: Physical Memory: 7720.12 MB used,  8616.85 MB free, 16336.97 MB total
+[2020.04.11-19.23.43:700][  0]LogMemory: Virtual Memory: 4655.61 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.04.11-19.23.43:702][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.11-19.23.43:731][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.04.11-19.23.43:731][  0]LogInit: Overriding language with editor culture configuration option ().
+[2020.04.11-19.23.43:731][  0]LogInit: Using OS detected language (en-US).
+[2020.04.11-19.23.43:733][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.11-19.23.43:954][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.11-19.23.43:982][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.11-19.23.43:982][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.11-19.23.44:300][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.11-19.23.44:300][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.11-19.23.44:382][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.04.11-19.23.44:382][  0]LogD3D11RHI:       4043/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.11-19.23.44:386][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.11-19.23.44:386][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.11-19.23.44:386][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.11-19.23.44:393][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.11-19.23.44:393][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.11-19.23.44:394][  0]LogWindows: EnumDisplayDevices:
+[2020.04.11-19.23.44:394][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.04.11-19.23.44:394][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.04.11-19.23.44:394][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.04.11-19.23.44:395][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.04.11-19.23.44:395][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.11-19.23.44:395][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.04.11-19.23.44:395][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.11-19.23.44:395][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.11-19.23.44:395][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.04.11-19.23.44:443][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.11-19.23.44:463][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.11-19.23.44:830][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.11-19.23.44:839][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.11-19.23.44:848][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.11-19.23.44:856][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.11-19.23.44:865][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.11-19.23.44:873][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.11-19.23.44:882][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.11-19.23.44:892][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.11-19.23.44:896][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.11-19.23.44:934][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.11-19.23.44:935][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.11-19.23.44:935][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.11-19.23.44:936][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.11-19.23.44:957][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.11-19.23.44:957][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.11-19.23.44:972][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.11-19.23.44:972][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.11-19.23.44:981][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.11-19.23.44:989][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.11-19.23.44:997][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.11-19.23.45:005][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.11-19.23.45:032][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.11-19.23.45:032][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.11-19.23.45:033][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.11-19.23.45:044][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.11-19.23.45:095][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Intermediate/Shaders/WorkingDirectory/10276/).
+[2020.04.11-19.23.45:095][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/garet/AppData/Local/Temp/UnrealShaderWorkingDir/56FB460F450F706FD389EB89CB680433/'.
+[2020.04.11-19.23.45:097][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.11-19.23.45:097][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.11-19.23.45:097][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.11-19.23.45:791][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.11-19.23.45:861][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/garet/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.04.11-19.23.45:861][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/garet/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.04.11-19.23.45:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.11-19.23.45:861][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.11-19.23.45:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.11-19.23.45:862][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.11-19.23.45:874][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.11-19.23.45:874][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.11-19.23.45:874][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.11-19.23.45:876][  0]LogDerivedDataCache: Using Local data cache path C:/Users/garet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.11-19.23.45:876][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.11-19.23.45:876][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.11-19.23.45:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.11-19.23.45:903][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.11-19.23.45:904][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.11-19.23.45:994][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2020.04.11-19.23.46:330][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.11-19.23.46:502][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.11-19.23.46:502][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.11-19.23.46:502][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.11-19.23.46:502][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.11-19.23.46:502][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.11-19.23.46:513][  0]LogNetVersion: JamCraft5 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4196748465)
+[2020.04.11-19.23.47:142][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.080663 seconds
+[2020.04.11-19.23.47:152][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.04.11-19.23.47:153][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.04.11-19.23.47:157][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.11-19.23.48:413][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.11-19.23.48:418][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.11-19.23.48:505][  0]SourceControl: Source control is disabled
+[2020.04.11-19.23.48:506][  0]SourceControl: Source control is disabled
+[2020.04.11-19.23.48:518][  0]SourceControl: Source control is disabled
+[2020.04.11-19.23.48:521][  0]SourceControl: Source control is disabled
+[2020.04.11-19.23.48:636][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.11-19.23.49:085][  0]LogOcInput: OculusInput pre-init called
+[2020.04.11-19.23.49:093][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.11-19.23.49:094][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.11-19.23.49:201][  0]LogEngine: Initializing Engine...
+[2020.04.11-19.23.49:202][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.11-19.23.49:205][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.11-19.23.49:511][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.11-19.23.49:524][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.11-19.23.49:601][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.11-19.23.49:673][  0]LogInit: FAudioDevice initialized.
+[2020.04.11-19.23.49:673][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.11-19.23.49:863][  0]LogDerivedDataCache: Saved boot cache 0.18s 73MB C:/Users/garet/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.04.11-19.23.49:868][  0]LogInit: Texture streaming: Enabled
+[2020.04.11-19.23.49:888][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.11-19.23.51:370][  0]LogInit: Transaction tracking system initialized
+[2020.04.11-19.23.51:502][  0]BlueprintLog: New page: Editor Load
+[2020.04.11-19.23.51:578][  0]LocalizationService: Localization service is disabled
+[2020.04.11-19.23.54:243][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/' took 0.01s
+[2020.04.11-19.23.54:243][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.11-19.23.54:247][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.11-19.23.54:482][  0]SourceControl: Source control is disabled
+[2020.04.11-19.23.54:482][  0]Cmd: MAP LOAD FILE="../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.11-19.23.55:902][  0]LightingResults: New page: Lighting Build
+[2020.04.11-19.23.55:907][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-19.23.55:926][  0]MapCheck: New page: Map Check
+[2020.04.11-19.23.55:927][  0]LightingResults: New page: Lighting Build
+[2020.04.11-19.23.56:456][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.04.11-19.23.56:758][  0]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] Entry node  Upper Body  is not connected to state
+[2020.04.11-19.23.56:758][  0]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] There was no entry state connection in  Upper Body
+[2020.04.11-19.23.58:610][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.11-19.23.58:735][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.11-19.23.58:972][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.04.11-19.23.58:972][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.11-19.23.58:972][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.126ms to complete.
+[2020.04.11-19.23.58:973][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.490
+[2020.04.11-19.23.59:692][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-19.23.59:740][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-19.23.59:748][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-19.23.59:757][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-19.23.59:978][  0]LogCollectionManager: Loaded 0 collections in 0.001195 seconds
+[2020.04.11-19.24.00:415][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Collections/' took 0.00s
+[2020.04.11-19.24.00:415][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/Developers/garet/Collections/' took 0.00s
+[2020.04.11-19.24.00:415][  0]LogFileCache: Scanning file cache for directory 'D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/Collections/' took 0.00s
+[2020.04.11-19.24.00:415][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2020.04.11-19.24.00:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0311 seconds. Added 2863 classes and 680 folders.
+[2020.04.11-19.24.00:726][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.11-19.24.03:079][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.11-19.24.03:202][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.04.11-19.24.04:546][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.11-19.24.04:548][  0]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.11-19.24.04:635][  0]LogSlate: Took 0.028986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.11-19.24.05:210][  0]LogRenderer: Reallocating scene render targets to support 1204x580 Format 10 NumSamples 1 (Frame:1).
+[2020.04.11-19.24.06:010][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.11-19.24.06:010][  0]LogLoad: (Engine Initialization) Total time: 38.95 seconds
+[2020.04.11-19.24.06:010][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.11-19.24.06:159][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.11-19.24.06:295][  0]LogSlate: Took 0.018048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.11-19.24.07:431][  6]LogAssetRegistry: Asset discovery search completed in 21.4463 seconds
+[2020.04.11-19.24.07:434][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2020.04.11-19.24.07:434][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000117 seconds (updated 0 objects)
+[2020.04.11-19.24.09:763][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.11-19.24.13:819][ 99]LogSlate: Took 0.000405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.11-19.24.16:570][ 99]LogSlate: Window 'Message' being destroyed
+[2020.04.11-19.24.16:577][ 99]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx)
+[2020.04.11-19.24.16:671][ 99]LogEditorFactories: Performing atomic reimport of [D:/Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx]
+[2020.04.11-19.24.16:754][ 99]LogFbx: Loading FBX Scene from D:/Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx
+[2020.04.11-19.24.16:785][ 99]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-19.24.16:832][ 99]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Body : The relative matrices do not match
+[2020.04.11-19.24.16:832][ 99]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Head : The relative matrices do not match
+[2020.04.11-19.24.16:833][ 99]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Body : The relative matrices do not match
+[2020.04.11-19.24.16:833][ 99]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Head : The relative matrices do not match
+[2020.04.11-19.24.16:833][ 99]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.04.11-19.24.16:833][ 99]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Body
+[2020.04.11-19.24.16:833][ 99]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.04.11-19.24.16:836][ 99]LogFbx: Triangulating skeletal mesh Body
+[2020.04.11-19.24.16:855][ 99]LogFbx: Triangulating skeletal mesh Head
+[2020.04.11-19.24.16:871][ 99]LogFbx: Warning: Bones digested - 15  Depth of hierarchy - 5
+[2020.04.11-19.24.16:942][ 99]LogSkeletalMesh: Section 0: 462 vertices, 5 active bones
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 1: 104 vertices, 4 active bones
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 2: 140 vertices, 4 active bones
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 3: 522 vertices, 1 active bones
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 4: 132 vertices, 1 active bones
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 0: Material=0, 224 triangles
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 1: Material=1, 52 triangles
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 2: Material=2, 76 triangles
+[2020.04.11-19.24.16:943][ 99]LogSkeletalMesh: Section 3: Material=3, 190 triangles
+[2020.04.11-19.24.16:944][ 99]LogSkeletalMesh: Section 4: Material=4, 58 triangles
+[2020.04.11-19.24.16:945][ 99]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.16:960][ 99]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.16:997][ 99]LogEditorFactories: -- imported successfully
+[2020.04.11-19.24.17:004][ 99]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.17:004][ 99]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.17:016][ 99]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.17:017][ 99]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.42:687][727]LogSlate: Window 'Message' being destroyed
+[2020.04.11-19.24.42:694][727]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx)
+[2020.04.11-19.24.42:697][727]LogEditorFactories: Performing atomic reimport of [D:/Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx]
+[2020.04.11-19.24.42:711][727]LogFbx: Loading FBX Scene from D:/Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx
+[2020.04.11-19.24.42:739][727]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-19.24.42:745][727]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Body : The relative matrices do not match
+[2020.04.11-19.24.42:746][727]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Head : The relative matrices do not match
+[2020.04.11-19.24.42:746][727]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Body : The relative matrices do not match
+[2020.04.11-19.24.42:746][727]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Head : The relative matrices do not match
+[2020.04.11-19.24.42:746][727]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.04.11-19.24.42:747][727]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Body
+[2020.04.11-19.24.42:747][727]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.04.11-19.24.42:748][727]LogFbx: Triangulating skeletal mesh Body
+[2020.04.11-19.24.42:767][727]LogFbx: Triangulating skeletal mesh Head
+[2020.04.11-19.24.42:781][727]LogFbx: Warning: Bones digested - 15  Depth of hierarchy - 5
+[2020.04.11-19.24.42:787][727]LogSkeletalMesh: Section 0: 462 vertices, 5 active bones
+[2020.04.11-19.24.42:787][727]LogSkeletalMesh: Section 1: 104 vertices, 4 active bones
+[2020.04.11-19.24.42:787][727]LogSkeletalMesh: Section 2: 140 vertices, 4 active bones
+[2020.04.11-19.24.42:788][727]LogSkeletalMesh: Section 3: 522 vertices, 1 active bones
+[2020.04.11-19.24.42:788][727]LogSkeletalMesh: Section 4: 132 vertices, 1 active bones
+[2020.04.11-19.24.42:788][727]LogSkeletalMesh: Section 0: Material=0, 224 triangles
+[2020.04.11-19.24.42:788][727]LogSkeletalMesh: Section 1: Material=1, 52 triangles
+[2020.04.11-19.24.42:788][727]LogSkeletalMesh: Section 2: Material=2, 76 triangles
+[2020.04.11-19.24.42:788][727]LogSkeletalMesh: Section 3: Material=3, 190 triangles
+[2020.04.11-19.24.42:788][727]LogSkeletalMesh: Section 4: Material=4, 58 triangles
+[2020.04.11-19.24.42:790][727]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.42:791][727]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.42:792][727]LogEditorFactories: -- imported successfully
+[2020.04.11-19.24.42:798][727]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.42:800][727]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.42:808][727]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.42:809][727]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.52:562][116]LogSlate: Window 'Message' being destroyed
+[2020.04.11-19.24.52:568][116]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx)
+[2020.04.11-19.24.52:571][116]LogEditorFactories: Performing atomic reimport of [D:/Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx]
+[2020.04.11-19.24.52:585][116]LogFbx: Loading FBX Scene from D:/Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx
+[2020.04.11-19.24.52:612][116]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-19.24.52:619][116]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Body : The relative matrices do not match
+[2020.04.11-19.24.52:619][116]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Head : The relative matrices do not match
+[2020.04.11-19.24.52:620][116]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Body : The relative matrices do not match
+[2020.04.11-19.24.52:620][116]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Head : The relative matrices do not match
+[2020.04.11-19.24.52:620][116]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.04.11-19.24.52:621][116]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Body
+[2020.04.11-19.24.52:621][116]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.04.11-19.24.52:622][116]LogFbx: Triangulating skeletal mesh Body
+[2020.04.11-19.24.52:641][116]LogFbx: Triangulating skeletal mesh Head
+[2020.04.11-19.24.52:654][116]LogFbx: Warning: Bones digested - 15  Depth of hierarchy - 5
+[2020.04.11-19.24.52:662][116]LogSkeletalMesh: Section 0: 462 vertices, 5 active bones
+[2020.04.11-19.24.52:662][116]LogSkeletalMesh: Section 1: 104 vertices, 4 active bones
+[2020.04.11-19.24.52:662][116]LogSkeletalMesh: Section 2: 140 vertices, 4 active bones
+[2020.04.11-19.24.52:663][116]LogSkeletalMesh: Section 3: 522 vertices, 1 active bones
+[2020.04.11-19.24.52:663][116]LogSkeletalMesh: Section 4: 132 vertices, 1 active bones
+[2020.04.11-19.24.52:663][116]LogSkeletalMesh: Section 0: Material=0, 224 triangles
+[2020.04.11-19.24.52:663][116]LogSkeletalMesh: Section 1: Material=1, 52 triangles
+[2020.04.11-19.24.52:663][116]LogSkeletalMesh: Section 2: Material=2, 76 triangles
+[2020.04.11-19.24.52:663][116]LogSkeletalMesh: Section 3: Material=3, 190 triangles
+[2020.04.11-19.24.52:663][116]LogSkeletalMesh: Section 4: Material=4, 58 triangles
+[2020.04.11-19.24.52:665][116]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.52:666][116]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.52:669][116]LogEditorFactories: -- imported successfully
+[2020.04.11-19.24.52:674][116]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.52:675][116]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.24.52:684][116]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.24.52:685][116]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-19.25.38:656][558]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx)
+[2020.04.11-19.25.38:672][558]LogFbx: Loading FBX Scene from ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx
+[2020.04.11-19.25.38:696][558]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-19.25.52:341][558]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.11-19.25.52:412][558]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Body : The relative matrices do not match
+[2020.04.11-19.25.52:413][558]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Head : The relative matrices do not match
+[2020.04.11-19.25.52:413][558]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Body : The relative matrices do not match
+[2020.04.11-19.25.52:413][558]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Head : The relative matrices do not match
+[2020.04.11-19.25.52:413][558]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.04.11-19.25.52:413][558]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Body
+[2020.04.11-19.25.52:413][558]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.04.11-19.25.52:590][558]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Base_001.Base_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.25.52:593][558]LogMaterial: Display: Missing cached shader map for material Base_001, compiling. 
+[2020.04.11-19.25.52:753][558]LogMaterial: Display: Missing cached shader map for material Base_001, compiling. 
+[2020.04.11-19.25.52:801][558]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Skin.Skin needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.25.52:805][558]LogMaterial: Display: Missing cached shader map for material Skin, compiling. 
+[2020.04.11-19.25.52:845][558]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2020.04.11-19.25.52:845][558]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2020.04.11-19.25.52:845][558]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2020.04.11-19.25.52:849][558]LogMaterial: Display: Missing cached shader map for material Skin, compiling. 
+[2020.04.11-19.25.52:886][558]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Leather.Leather needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.25.52:890][558]LogMaterial: Display: Missing cached shader map for material Leather, compiling. 
+[2020.04.11-19.25.52:935][558]LogMaterial: Display: Missing cached shader map for material Leather, compiling. 
+[2020.04.11-19.25.52:974][558]LogFbx: Triangulating skeletal mesh Body
+[2020.04.11-19.25.52:992][558]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Base.Base needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.25.52:995][558]LogMaterial: Display: Missing cached shader map for material Base, compiling. 
+[2020.04.11-19.25.53:050][558]LogMaterial: Display: Missing cached shader map for material Base, compiling. 
+[2020.04.11-19.25.53:092][558]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Top.Top needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.25.53:096][558]LogMaterial: Display: Missing cached shader map for material Top, compiling. 
+[2020.04.11-19.25.53:144][558]LogMaterial: Display: Missing cached shader map for material Top, compiling. 
+[2020.04.11-19.25.53:190][558]LogFbx: Triangulating skeletal mesh Head
+[2020.04.11-19.25.53:207][558]LogFbx: Warning: Bones digested - 15  Depth of hierarchy - 5
+[2020.04.11-19.25.53:215][558]LogSkeletalMesh: Section 0: 462 vertices, 5 active bones
+[2020.04.11-19.25.53:216][558]LogSkeletalMesh: Section 1: 104 vertices, 4 active bones
+[2020.04.11-19.25.53:217][558]LogSkeletalMesh: Section 2: 140 vertices, 4 active bones
+[2020.04.11-19.25.53:217][558]LogSkeletalMesh: Section 3: 522 vertices, 1 active bones
+[2020.04.11-19.25.53:217][558]LogSkeletalMesh: Section 4: 132 vertices, 1 active bones
+[2020.04.11-19.25.53:218][558]LogSkeletalMesh: Section 0: Material=0, 224 triangles
+[2020.04.11-19.25.53:218][558]LogSkeletalMesh: Section 1: Material=1, 52 triangles
+[2020.04.11-19.25.53:218][558]LogSkeletalMesh: Section 2: Material=2, 76 triangles
+[2020.04.11-19.25.53:220][558]LogSkeletalMesh: Section 3: Material=3, 190 triangles
+[2020.04.11-19.25.53:220][558]LogSkeletalMesh: Section 4: Material=4, 58 triangles
+[2020.04.11-19.25.53:221][558]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.25.53:222][558]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.25.53:223][558]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_PhysicsAsset': Can't find file.
+[2020.04.11-19.25.53:225][558]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_PhysicsAsset': Can't find file.
+[2020.04.11-19.25.53:232][558]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.04.11-19.25.53:232][558]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-19.25.53:252][558]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(0) Root
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(1) Body
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(2) Head
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-19.25.53:253][558]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(0) Root
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(1) Body
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(2) Head
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-19.25.53:254][558]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(0) Root
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(1) Body
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(2) Head
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-19.25.53:255][558]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-19.25.53:256][558]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-19.25.53:256][558]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-19.25.53:256][558]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-19.25.53:256][558]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-19.25.53:256][558]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-19.25.53:256][558]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-19.25.53:256][558]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-19.25.53:257][558]LogFbx: Parsing AnimStack Root|Idle_1
+[2020.04.11-19.25.53:369][558]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1.Player_Anim_Root_Idle_1
+[2020.04.11-19.25.53:397][558]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1.Player_Anim_Root_Idle_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-19.25.53:435][558]LogFbx: Parsing AnimStack Root|Idle_Axe
+[2020.04.11-19.25.53:477][558]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe.Player_Anim_Root_Idle_Axe
+[2020.04.11-19.25.53:478][558]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe.Player_Anim_Root_Idle_Axe) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-19.25.53:485][558]LogFbx: Parsing AnimStack Root|Walk
+[2020.04.11-19.25.53:544][558]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk.Player_Anim_Root_Walk
+[2020.04.11-19.25.53:544][558]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk.Player_Anim_Root_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-19.25.53:548][558]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.25.53:549][558]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.25.53:576][558]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.25.53:577][558]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.26.10:305][788]LogSlate: Window 'Failed Renames' being destroyed
+[2020.04.11-19.26.14:984][ 34]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 270
+[2020.04.11-19.26.15:286][ 52]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 260
+[2020.04.11-19.26.19:395][ 81]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 250
+[2020.04.11-19.26.19:395][ 81]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 240
+[2020.04.11-19.26.19:398][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.04.11-19.26.21:266][ 81]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 230
+[2020.04.11-19.26.21:473][ 81]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.11-19.26.21:476][ 81]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.26.28:037][ 81]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 220
+[2020.04.11-19.26.28:038][ 81]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 210
+[2020.04.11-19.26.28:038][ 81]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 200
+[2020.04.11-19.26.28:041][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.04.11-19.26.29:470][162]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 190
+[2020.04.11-19.26.34:441][621]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 180
+[2020.04.11-19.26.44:117][577]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 170
+[2020.04.11-19.26.46:486][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.04.11-19.26.47:935][796]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 160
+[2020.04.11-19.26.47:989][796]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 150
+[2020.04.11-19.26.48:137][796]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.11-19.26.48:280][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.04.11-19.27.02:969][617]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 140
+[2020.04.11-19.27.04:138][617]LogSlate: Window 'Message' being destroyed
+[2020.04.11-19.27.07:737][870]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 130
+[2020.04.11-19.27.10:459][942]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 120
+[2020.04.11-19.27.10:479][942]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx)
+[2020.04.11-19.27.10:493][942]LogFbx: Loading FBX Scene from ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx
+[2020.04.11-19.27.10:518][942]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-19.27.12:458][942]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 110
+[2020.04.11-19.27.14:877][942]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 100
+[2020.04.11-19.27.14:950][942]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 90
+[2020.04.11-19.27.19:815][942]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 80
+[2020.04.11-19.27.21:064][942]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 70
+[2020.04.11-19.27.21:320][942]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 60
+[2020.04.11-19.27.24:970][942]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 50
+[2020.04.11-19.27.26:615][942]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
+[2020.04.11-19.27.27:773][942]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2020.04.11-19.27.31:771][942]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.04.11-19.27.33:785][942]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.04.11-19.27.33:858][942]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.04.11-19.27.34:654][942]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.11-19.27.34:753][942]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Body : The relative matrices do not match
+[2020.04.11-19.27.34:753][942]LogFbx: Warning: Not valid bind pose for Pose (Cube.001) - Node Head : The relative matrices do not match
+[2020.04.11-19.27.34:753][942]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Body : The relative matrices do not match
+[2020.04.11-19.27.34:753][942]LogFbx: Warning: Not valid bind pose for Pose (Cube.002) - Node Head : The relative matrices do not match
+[2020.04.11-19.27.34:753][942]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.04.11-19.27.34:754][942]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Body
+[2020.04.11-19.27.34:755][942]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.04.11-19.27.34:757][942]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Base_001.Base_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.27.34:761][942]LogMaterial: Display: Missing cached shader map for material Base_001, compiling. 
+[2020.04.11-19.27.34:810][942]LogMaterial: Display: Missing cached shader map for material Base_001, compiling. 
+[2020.04.11-19.27.34:859][942]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Skin.Skin needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.27.34:863][942]LogMaterial: Display: Missing cached shader map for material Skin, compiling. 
+[2020.04.11-19.27.34:909][942]LogMaterial: Display: Missing cached shader map for material Skin, compiling. 
+[2020.04.11-19.27.34:959][942]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Leather.Leather needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.27.34:963][942]LogMaterial: Display: Missing cached shader map for material Leather, compiling. 
+[2020.04.11-19.27.35:017][942]LogMaterial: Display: Missing cached shader map for material Leather, compiling. 
+[2020.04.11-19.27.35:071][942]LogFbx: Triangulating skeletal mesh Body
+[2020.04.11-19.27.35:106][942]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Base.Base needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.27.35:110][942]LogMaterial: Display: Missing cached shader map for material Base, compiling. 
+[2020.04.11-19.27.35:163][942]LogMaterial: Display: Missing cached shader map for material Base, compiling. 
+[2020.04.11-19.27.35:215][942]LogMaterial: Display: Material /Game/ThirdPersonBP/Models/Animations/Top.Top needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.11-19.27.35:218][942]LogMaterial: Display: Missing cached shader map for material Top, compiling. 
+[2020.04.11-19.27.35:276][942]LogMaterial: Display: Missing cached shader map for material Top, compiling. 
+[2020.04.11-19.27.35:322][942]LogFbx: Triangulating skeletal mesh Head
+[2020.04.11-19.27.35:335][942]LogFbx: Warning: Bones digested - 15  Depth of hierarchy - 5
+[2020.04.11-19.27.35:366][942]LogSkeletalMesh: Section 0: 462 vertices, 5 active bones
+[2020.04.11-19.27.35:383][942]LogSkeletalMesh: Section 1: 104 vertices, 4 active bones
+[2020.04.11-19.27.35:397][942]LogSkeletalMesh: Section 2: 140 vertices, 4 active bones
+[2020.04.11-19.27.35:409][942]LogSkeletalMesh: Section 3: 522 vertices, 1 active bones
+[2020.04.11-19.27.35:412][942]LogSkeletalMesh: Section 4: 132 vertices, 1 active bones
+[2020.04.11-19.27.35:416][942]LogSkeletalMesh: Section 0: Material=0, 224 triangles
+[2020.04.11-19.27.35:425][942]LogSkeletalMesh: Section 1: Material=1, 52 triangles
+[2020.04.11-19.27.35:431][942]LogSkeletalMesh: Section 2: Material=2, 76 triangles
+[2020.04.11-19.27.35:434][942]LogSkeletalMesh: Section 3: Material=3, 190 triangles
+[2020.04.11-19.27.35:442][942]LogSkeletalMesh: Section 4: Material=4, 58 triangles
+[2020.04.11-19.27.35:445][942]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.27.35:448][942]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.27.35:459][942]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.04.11-19.27.35:459][942]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-19.27.35:467][942]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-19.27.35:468][942]LogFbx: SortedLinks :(0) Root
+[2020.04.11-19.27.35:470][942]LogFbx: SortedLinks :(1) Body
+[2020.04.11-19.27.35:472][942]LogFbx: SortedLinks :(2) Head
+[2020.04.11-19.27.35:474][942]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-19.27.35:475][942]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-19.27.35:476][942]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-19.27.35:477][942]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-19.27.35:479][942]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-19.27.35:481][942]LogFbx: SortedLinks :(0) Root
+[2020.04.11-19.27.35:481][942]LogFbx: SortedLinks :(1) Body
+[2020.04.11-19.27.35:482][942]LogFbx: SortedLinks :(2) Head
+[2020.04.11-19.27.35:483][942]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-19.27.35:484][942]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-19.27.35:487][942]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-19.27.35:492][942]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-19.27.35:492][942]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-19.27.35:493][942]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-19.27.35:493][942]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-19.27.35:493][942]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-19.27.35:493][942]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-19.27.35:493][942]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-19.27.35:494][942]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-19.27.35:494][942]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-19.27.35:494][942]LogFbx: SortedLinks :(0) Root
+[2020.04.11-19.27.35:494][942]LogFbx: SortedLinks :(1) Body
+[2020.04.11-19.27.35:494][942]LogFbx: SortedLinks :(2) Head
+[2020.04.11-19.27.35:494][942]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-19.27.35:495][942]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-19.27.35:495][942]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-19.27.35:496][942]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-19.27.35:496][942]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-19.27.35:496][942]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-19.27.35:496][942]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-19.27.35:496][942]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-19.27.35:497][942]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-19.27.35:497][942]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-19.27.35:497][942]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-19.27.35:497][942]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-19.27.35:499][942]LogFbx: Parsing AnimStack Root|Idle_1
+[2020.04.11-19.27.35:579][942]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1.Player_Anim_Root_Idle_1
+[2020.04.11-19.27.35:580][942]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1.Player_Anim_Root_Idle_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-19.27.35:582][942]LogFbx: Parsing AnimStack Root|Idle_Axe
+[2020.04.11-19.27.35:644][942]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe.Player_Anim_Root_Idle_Axe
+[2020.04.11-19.27.35:644][942]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe.Player_Anim_Root_Idle_Axe) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-19.27.35:649][942]LogFbx: Parsing AnimStack Root|Walk
+[2020.04.11-19.27.35:697][942]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk.Player_Anim_Root_Walk
+[2020.04.11-19.27.35:697][942]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk.Player_Anim_Root_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-19.27.35:703][942]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.27.35:704][942]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.27.35:714][942]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.27.35:715][942]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.27.38:297][ 78]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 305
+[2020.04.11-19.27.43:494][349]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 295
+[2020.04.11-19.27.47:903][500]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 285
+[2020.04.11-19.27.57:937][973]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 275
+[2020.04.11-19.28.03:855][336]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 265
+[2020.04.11-19.28.05:341][358]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 255
+[2020.04.11-19.28.07:350][404]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 245
+[2020.04.11-19.28.09:744][437]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 235
+[2020.04.11-19.28.13:442][493]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 225
+[2020.04.11-19.28.14:701][500]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 215
+[2020.04.11-19.28.19:077][561]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 205
+[2020.04.11-19.28.21:202][610]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 195
+[2020.04.11-19.28.21:400][615]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 185
+[2020.04.11-19.28.24:004][665]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 175
+[2020.04.11-19.28.26:659][698]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 165
+[2020.04.11-19.28.28:208][711]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 155
+[2020.04.11-19.28.31:660][763]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 145
+[2020.04.11-19.28.33:761][818]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 135
+[2020.04.11-19.28.34:580][831]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 125
+[2020.04.11-19.28.36:855][879]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 115
+[2020.04.11-19.28.40:116][915]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 105
+[2020.04.11-19.28.41:885][927]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 95
+[2020.04.11-19.28.45:794][971]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 85
+[2020.04.11-19.28.48:722][  6]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 75
+[2020.04.11-19.28.48:879][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 65
+[2020.04.11-19.28.53:314][ 55]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 55
+[2020.04.11-19.28.57:882][ 74]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 45
+[2020.04.11-19.29.00:110][ 94]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 35
+[2020.04.11-19.29.14:781][888]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2020.04.11-19.29.20:473][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.04.11-19.29.21:528][154]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.04.11-19.29.22:098][154]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.04.11-19.29.24:528][154]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.11-19.29.24:534][154]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Leather.Leather
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Base_001.Base_001
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Base.Base
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Player.Player
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Player_PhysicsAsset.Player_PhysicsAsset
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Skin.Skin
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Top.Top
+[2020.04.11-19.29.24:678][154]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.29.24:679][154]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.29.24:681][154]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.29.24:682][154]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.29.24:684][154]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.29.24:691][154]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.29.24:702][154]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.29.24:703][154]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.29.24:711][154]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.29.24:724][154]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.29.24:757][154]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-19.29.24:785][154]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/ThirdPersonBP/Models/Animations/Player.Player
+[2020.04.11-19.29.25:559][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.04.11-19.29.31:857][489]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.04.11-19.29.31:911][490]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.04.11-19.29.31:965][491]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.04.11-19.34.06:756][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.04.11-19.34.06:756][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.025
+[2020.04.11-19.34.06:758][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe] ([1] browsable assets)...
+[2020.04.11-19.34.06:774][355]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe.Player_Anim_Root_Idle_Axe]
+[2020.04.11-19.34.06:774][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe]
+[2020.04.11-19.34.06:865][355]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Anim_Root_Idle_Axe_Auto14829CEB74F871278A4A721AE5EE5CDB3.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Autosaves/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe_Auto1.uasset'
+[2020.04.11-19.34.06:875][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1] ([1] browsable assets)...
+[2020.04.11-19.34.06:889][355]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1.Player_Anim_Root_Idle_1]
+[2020.04.11-19.34.06:890][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1]
+[2020.04.11-19.34.06:921][355]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Anim_Root_Idle_1_Auto1D95037574428903A2200EFB7F46F2163.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Autosaves/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1_Auto1.uasset'
+[2020.04.11-19.34.06:922][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk] ([1] browsable assets)...
+[2020.04.11-19.34.06:937][355]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk.Player_Anim_Root_Walk]
+[2020.04.11-19.34.06:937][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk]
+[2020.04.11-19.34.06:968][355]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Anim_Root_Walk_Auto117C92AC34E6770DED3D77EA507EBCBDE.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Autosaves/Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk_Auto1.uasset'
+[2020.04.11-19.34.06:969][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Models/Player] ([1] browsable assets)...
+[2020.04.11-19.34.06:983][355]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ThirdPersonBP/Models/Player.Player]
+[2020.04.11-19.34.06:984][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Models/Player]
+[2020.04.11-19.34.07:029][355]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Auto19F5644BC4511BCC234A029981FCC8835.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Autosaves/Game/ThirdPersonBP/Models/Player_Auto1.uasset'
+[2020.04.11-19.34.07:030][355]LogFileHelpers: Auto-saving content packages took 0.273
+[2020.04.11-19.35.41:708][979]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx)
+[2020.04.11-19.35.41:722][979]LogFbx: Loading FBX Scene from ../../../../../../Users/garet/Documents/Blender Files/2D/GameJam/Player.fbx
+[2020.04.11-19.35.41:745][979]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-22.17.02:081][979]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.11-22.17.02:081][979]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.11-22.17.13:616][979]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.11-22.23.09:121][379]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx)
+[2020.04.11-22.23.09:150][379]LogFbx: Loading FBX Scene from ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx
+[2020.04.11-22.23.09:180][379]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-22.23.12:235][379]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.11-22.23.29:993][785]LogSlate: Window 'Message' being destroyed
+[2020.04.11-22.23.30:000][785]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx)
+[2020.04.11-22.23.30:027][785]LogEditorFactories: Performing atomic reimport of [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx]
+[2020.04.11-22.23.30:041][785]LogFbx: Loading FBX Scene from D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx
+[2020.04.11-22.23.30:070][785]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-22.23.30:079][785]LogEditorFactories: Warning: -- import failed
+[2020.04.11-22.23.30:085][785]FBXImport: Warning: No FBX mesh matches the Unreal mesh 'Player'. 
+[2020.04.11-22.23.30:093][785]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-22.23.30:094][785]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-22.23.39:335][416]LogSlate: Window 'Message' being destroyed
+[2020.04.11-22.23.48:246][736]LogSlate: Window 'Message' being destroyed
+[2020.04.11-22.23.48:251][736]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx)
+[2020.04.11-22.23.48:254][736]LogEditorFactories: Performing atomic reimport of [D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx]
+[2020.04.11-22.23.48:268][736]LogFbx: Loading FBX Scene from D:/Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx
+[2020.04.11-22.23.48:298][736]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-22.23.48:309][736]LogEditorFactories: Warning: -- import failed
+[2020.04.11-22.23.48:316][736]FBXImport: Warning: No FBX mesh matches the Unreal mesh 'Player'. 
+[2020.04.11-22.23.48:322][736]LogSkeletalMesh: Building Skeletal Mesh Player...
+[2020.04.11-22.23.48:323][736]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Models/Player.Player
+[2020.04.11-22.23.56:428][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx)
+[2020.04.11-22.23.56:442][291]LogFbx: Loading FBX Scene from ../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/Blender Files/FBX Files/Player.fbx
+[2020.04.11-22.23.56:471][291]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.11-22.24.23:175][291]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.11-22.24.23:228][291]LogFbx: SortedLinks :(0) Root
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(1) Body
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(2) Head
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(0) Root
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(1) Body
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(2) Head
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-22.24.23:229][291]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(0) Root
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(1) Body
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(2) Head
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(0) Root
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(1) Body
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(2) Head
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(0) Root
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(1) Body
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(2) Head
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(3) Body_001
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(4) LowerArm_L
+[2020.04.11-22.24.23:230][291]LogFbx: SortedLinks :(5) Hand_L
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(6) Body_002
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(7) LowerArm_R
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(8) Hand_R
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(9) Body_003
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(10) Leg_L
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(11) Foot_L
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(12) Body_004
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(13) Leg_R
+[2020.04.11-22.24.23:231][291]LogFbx: SortedLinks :(14) Foot_R
+[2020.04.11-22.24.23:233][291]LogFbx: Parsing AnimStack Root|attack1
+[2020.04.11-22.24.23:235][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_attack1': Can't find file.
+[2020.04.11-22.24.23:235][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_attack1': Can't find file.
+[2020.04.11-22.24.23:274][291]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_attack1.Player_Root_attack1
+[2020.04.11-22.24.23:274][291]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_attack1.Player_Root_attack1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-22.24.23:277][291]LogFbx: Parsing AnimStack Root|Idle_1
+[2020.04.11-22.24.23:278][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_1': Can't find file.
+[2020.04.11-22.24.23:278][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_1': Can't find file.
+[2020.04.11-22.24.23:327][291]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_1.Player_Root_Idle_1
+[2020.04.11-22.24.23:327][291]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_1.Player_Root_Idle_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-22.24.23:330][291]LogFbx: Parsing AnimStack Root|Idle_Axe
+[2020.04.11-22.24.23:330][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_Axe': Can't find file.
+[2020.04.11-22.24.23:330][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_Axe': Can't find file.
+[2020.04.11-22.24.23:369][291]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_Axe.Player_Root_Idle_Axe
+[2020.04.11-22.24.23:369][291]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Idle_Axe.Player_Root_Idle_Axe) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-22.24.23:372][291]LogFbx: Parsing AnimStack Root|Run
+[2020.04.11-22.24.23:372][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Run': Can't find file.
+[2020.04.11-22.24.23:373][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Run': Can't find file.
+[2020.04.11-22.24.23:405][291]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Run.Player_Root_Run
+[2020.04.11-22.24.23:405][291]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Run.Player_Root_Run) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-22.24.23:411][291]LogFbx: Parsing AnimStack Root|Walk
+[2020.04.11-22.24.23:411][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Walk': Can't find file.
+[2020.04.11-22.24.23:411][291]LogLinker: Failed to load '/Game/ThirdPersonBP/Models/Animations/Player_Root_Walk': Can't find file.
+[2020.04.11-22.24.23:469][291]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Walk.Player_Root_Walk
+[2020.04.11-22.24.23:469][291]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Root_Walk.Player_Root_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.11-22.25.08:032][994]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk.Player_Anim_Root_Walk
+[2020.04.11-22.25.08:258][994]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.04.11-22.25.08:962][994]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.11-22.25.09:045][994]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2020.04.11-22.25.09:546][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.11-22.25.10:644][994]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.11-22.25.12:791][164]LogSlate: Window 'Player_Anim_Root_Walk' being destroyed
+[2020.04.11-22.25.15:785][464]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.25.16:438][526]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.25.18:694][766]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.25.20:195][927]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.25.21:634][ 79]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.25.22:622][180]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.25.24:679][407]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.26.02:274][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.04.11-22.26.09:666][  7]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.11-22.26.09:673][  7]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_1.Player_Anim_Root_Idle_1
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe.Player_Anim_Root_Idle_Axe
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Idle_Axe_Montage.Player_Anim_Root_Idle_Axe_Montage
+	Asset Name: /Game/ThirdPersonBP/Models/Animations/Player_Anim_Root_Walk.Player_Anim_Root_Walk
+[2020.04.11-22.26.11:097][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.04.11-22.26.11:121][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.04.11-22.26.11:145][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.04.11-22.26.11:168][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.04.11-22.26.11:194][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.04.11-22.26.11:216][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.04.11-22.26.12:828][108]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/ThirdPersonBP/Models/Animations/IdleRun.IdleRun
+[2020.04.11-22.26.12:966][108]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.26.17:028][574]LoadErrors: Error: The BlendSpace  IdleRun  has sample with no animation. Recommend to remove sample point or set new animation.
+[2020.04.11-22.26.49:450][269]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/IdleRunED87B4A44955B503416C759BEB614E0F.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/IdleRun.uasset'
+[2020.04.11-22.26.50:574][380]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.26.50:905][380]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.26.55:176][754]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/ThirdPersonBP/Models/Animations/PlayerAnimationBlueprint.PlayerAnimationBlueprint
+[2020.04.11-22.26.55:332][754]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.11-22.26.56:158][754]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.04.11-22.26.57:790][754]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.11-22.26.58:302][754]LogSlate: Took 0.021983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.11-22.26.58:760][754]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.11-22.26.58:796][755]LogSlate: Took 0.021935 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.11-22.27.07:193][716]BlueprintLog: New page: Compile PlayerAnimationBlueprint
+[2020.04.11-22.27.07:204][716]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] Entry node  Upper Body  is not connected to state
+[2020.04.11-22.27.07:204][716]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] There was no entry state connection in  Upper Body
+[2020.04.11-22.27.07:205][716]LogBlueprint: Error: [Compiler PlayerAnimationBlueprint] Play (None)  references an unknown sequence
+[2020.04.11-22.27.07:206][716]LogBlueprint: Error: [Compiler PlayerAnimationBlueprint] Missing allocated node for AnimGraphNode_SequencePlayer_2 while searching for node links - likely due to the node having outstanding errors.
+[2020.04.11-22.27.07:463][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.04.11-22.27.24:712][715]BlueprintLog: New page: Compile PlayerAnimationBlueprint
+[2020.04.11-22.27.24:719][715]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] Entry node  Upper Body  is not connected to state
+[2020.04.11-22.27.24:719][715]LogBlueprint: Warning: [Compiler PlayerAnimationBlueprint] There was no entry state connection in  Upper Body
+[2020.04.11-22.27.24:900][715]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.04.11-22.27.28:775][117]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/PlayerAnimationBlueprintBF760566413A2443639C1E8E1C30B318.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/PlayerAnimationBlueprint.uasset'
+[2020.04.11-22.27.29:757][216]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-22.27.29:807][216]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.29:822][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-22.27.29:855][216]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 11, 2020, 12:27:29 PM)
+[2020.04.11-22.27.29:883][216]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.11-22.27.29:901][216]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.27.30:004][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102909s)
+[2020.04.11-22.27.30:016][216]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.11-22.27.30:028][216]LogPlayLevel: PIE: World Init took: (0.023351s)
+[2020.04.11-22.27.30:028][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.126729s)
+[2020.04.11-22.27.30:064][216]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.04.11-22.27.30:139][216]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.11-22.27.30:167][216]LogInit: FAudioDevice initialized.
+[2020.04.11-22.27.30:381][216]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.11-22.27.30:384][216]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.11-17.27.30
+[2020.04.11-22.27.30:553][216]LogWorld: Bringing up level for play took: 0.170572
+[2020.04.11-22.27.30:583][216]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.04.11-22.27.30:741][216]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.04.11-22.27.30:941][216]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.833
+[2020.04.11-22.27.30:941][216]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.40:624][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.40:664][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.27.40:665][262]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.27.40:665][262]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.27.40:750][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-22.27.40:751][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.40:815][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.27.40:838][262]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.04.11-22.27.40:869][263]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.04.11-22.27.42:637][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.11-22.27.42:786][453]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/ThirdPersonBP/Models/Animations/IdleRun.IdleRun
+[2020.04.11-22.27.42:792][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.11-22.27.42:823][453]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.11-22.27.43:163][453]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.11-22.27.44:991][651]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/IdleRunF52B1BC24E012D79D6406691D7EBF848.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/IdleRun.uasset'
+[2020.04.11-22.27.46:333][787]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-22.27.46:353][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.46:353][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-22.27.46:353][787]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 11, 2020, 12:27:46 PM)
+[2020.04.11-22.27.46:353][787]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.27.46:369][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015915s)
+[2020.04.11-22.27.46:370][787]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.11-22.27.46:399][787]LogPlayLevel: PIE: World Init took: (0.029359s)
+[2020.04.11-22.27.46:399][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.045502s)
+[2020.04.11-22.27.46:440][787]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.04.11-22.27.46:489][787]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.11-22.27.46:512][787]LogInit: FAudioDevice initialized.
+[2020.04.11-22.27.46:517][787]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.11-22.27.46:519][787]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.11-17.27.46
+[2020.04.11-22.27.46:519][787]LogWorld: Bringing up level for play took: 0.001249
+[2020.04.11-22.27.46:519][787]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.04.11-22.27.46:523][787]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.585
+[2020.04.11-22.27.46:523][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.56:835][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.56:835][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.27.56:835][ 17]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.27.56:835][ 17]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.27.56:845][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-22.27.56:846][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.27.56:887][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.27.56:892][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.04.11-22.27.56:941][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.04.11-22.27.57:920][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.11-22.28.06:552][ 99]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/IdleRunB4A4BB904540455069867D99794E8421.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/IdleRun.uasset'
+[2020.04.11-22.28.07:712][219]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-22.28.07:730][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.07:730][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-22.28.07:731][219]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 11, 2020, 12:28:07 PM)
+[2020.04.11-22.28.07:731][219]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.28.07:746][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014293s)
+[2020.04.11-22.28.07:747][219]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.11-22.28.07:748][219]LogPlayLevel: PIE: World Init took: (0.002108s)
+[2020.04.11-22.28.07:748][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016782s)
+[2020.04.11-22.28.07:789][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.04.11-22.28.07:844][219]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.11-22.28.07:877][219]LogInit: FAudioDevice initialized.
+[2020.04.11-22.28.07:886][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.28.07:886][219]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.11-22.28.07:889][219]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.11-17.28.07
+[2020.04.11-22.28.07:889][219]LogWorld: Bringing up level for play took: 0.002324
+[2020.04.11-22.28.07:890][219]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.04.11-22.28.07:894][219]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.787
+[2020.04.11-22.28.07:895][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.08:043][220]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.04.11-22.28.21:687][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.21:687][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.28.21:687][626]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.28.21:706][626]LogSlate: Window 'JamCraft5 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.11-22.28.21:709][626]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.28.21:716][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-22.28.21:716][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.21:766][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.04.11-22.28.21:792][629]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.04.11-22.28.29:717][494]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/IdleRunAE9627CB46C2CD17EAA0E7B6516D5DCB.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/IdleRun.uasset'
+[2020.04.11-22.28.31:003][513]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-22.28.31:021][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.31:021][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-22.28.31:021][513]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 11, 2020, 12:28:31 PM)
+[2020.04.11-22.28.31:021][513]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.28.31:035][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013431s)
+[2020.04.11-22.28.31:036][513]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.11-22.28.31:036][513]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2020.04.11-22.28.31:036][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014958s)
+[2020.04.11-22.28.31:076][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.04.11-22.28.31:118][513]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.11-22.28.31:140][513]LogInit: FAudioDevice initialized.
+[2020.04.11-22.28.31:148][513]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.11-22.28.31:150][513]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.11-17.28.31
+[2020.04.11-22.28.31:150][513]LogWorld: Bringing up level for play took: 0.001767
+[2020.04.11-22.28.31:150][513]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.04.11-22.28.31:154][513]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.046
+[2020.04.11-22.28.31:154][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.50:431][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.50:432][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.28.50:432][822]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.28.50:432][822]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.28.50:442][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-22.28.50:442][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.28.50:482][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.28.50:486][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.04.11-22.28.50:537][825]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.04.11-22.28.51:481][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.11-22.28.51:641][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.04.11-22.28.52:014][938]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/ThirdPersonExampleMap8192B16E4717790D414BE884A113135E.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.04.11-22.28.52:254][938]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/ThirdPersonExampleMap_BuiltDataC511A095497BFC91A02075B823CF5D40.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.04.11-22.29.00:521][806]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.04.11-22.29.05:603][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.11-22.29.09:862][694]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.04.11-22.29.10:152][694]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2020.04.11-22.29.10:637][720]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/ThirdPersonCharacterB8BFAE714F707D7EAB3A7A9166E2B7AF.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.04.11-22.29.11:226][776]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-22.29.11:247][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.29.11:248][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-22.29.11:248][776]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 11, 2020, 12:29:11 PM)
+[2020.04.11-22.29.11:248][776]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.29.11:265][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017125s)
+[2020.04.11-22.29.11:266][776]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.11-22.29.11:267][776]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2020.04.11-22.29.11:267][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018809s)
+[2020.04.11-22.29.11:310][776]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.04.11-22.29.11:366][776]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.11-22.29.11:395][776]LogInit: FAudioDevice initialized.
+[2020.04.11-22.29.11:406][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.29.11:406][776]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.11-22.29.11:409][776]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.11-17.29.11
+[2020.04.11-22.29.11:409][776]LogWorld: Bringing up level for play took: 0.002252
+[2020.04.11-22.29.11:410][776]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.04.11-22.29.11:415][776]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.307
+[2020.04.11-22.29.11:415][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.29.18:963][612]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 0
+[2020.04.11-22.29.20:143][734]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1
+[2020.04.11-22.29.56:415][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.29.56:415][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-22.29.56:415][992]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.11-22.29.56:432][992]LogSlate: Window 'JamCraft5 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.11-22.29.56:435][992]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-22.29.56:444][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-22.29.56:444][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.11-22.29.56:500][992]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2020.04.11-22.29.56:537][993]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.04.11-22.29.58:603][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.04.11-22.29.58:828][192]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/ThirdPersonExampleMapFCE92C9E4E7EA9ED8E993E953767E9E0.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.04.11-22.29.59:016][192]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/ThirdPersonExampleMap_BuiltData5B9C613E4C971E8F062235AF3956F354.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.04.11-22.30.09:098][263]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.04.11-22.30.09:153][263]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player17400E7440A26E004572DE973B4CB591.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Player.uasset'
+[2020.04.11-22.30.09:198][263]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Root_attack1639B3D0C4952BEA9FC1D0E85C9D69EEA.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/Player_Root_attack1.uasset'
+[2020.04.11-22.30.09:234][263]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Root_Idle_10D9F30C1405EF264BCCC6684E7253319.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/Player_Root_Idle_1.uasset'
+[2020.04.11-22.30.09:272][263]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Root_Idle_Axe03A1B3ED4B51709A9205DEAD6AD011ED.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/Player_Root_Idle_Axe.uasset'
+[2020.04.11-22.30.09:324][263]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Root_Run84E719084F9DF133C2497482531923DB.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/Player_Root_Run.uasset'
+[2020.04.11-22.30.09:360][263]LogSavePackage: Moving '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Saved/Player_Root_WalkAAE3685C45375350D4A9BABB9CDF7E78.tmp' to '../../../../../../Users/garet/Documents/Git/ProjectGladious-JamCraft5/JamCraft5/Content/ThirdPersonBP/Models/Animations/Player_Root_Walk.uasset'
+[2020.04.11-22.30.34:412][212]LogSlate: Window 'Source Control Login' being destroyed
